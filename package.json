@@ -1,0 +1,20 @@
+{
+  "name": "websitecv",
+  "version": "1.0.0",
+  "description": "A clean, modern, and responsive personal resume website with light/dark theme toggle.  \r This website is built in Persian and focuses on showcasing the front-end development skills and experience of MohammadHossein Dadgostrnejad.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BlackEagle256/WebsiteCV.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BlackEagle256/WebsiteCV/issues"
+  },
+  "homepage": "https://github.com/BlackEagle256/WebsiteCV#readme"
+}
