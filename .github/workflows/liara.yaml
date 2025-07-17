@@ -12,9 +12,9 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: "22"
-      - name: update-liara
+      - name: Install Liara CLI and deploy
         env:
           LIARA_TOKEN: ${{ secrets.LIARA_API_TOKEN }}
         run: |
           npm i -g @liara/cli@7
-          liara deploy --app="mhdadgostar" --api-token="$LIARA_TOKEN" --no-app-logs
+          liara deploy --app="mhdadgostar" --api-token="$LIARA_TOKEN" --debug
